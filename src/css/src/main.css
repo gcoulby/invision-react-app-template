@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@font-face {
+  font-family: "Modesto";
+  src: url("/src/fonts/modesto.eot");
+  src: url("/src/fonts/modesto_ie.eot") format("embedded-opentype"), url("/src/fonts/modesto.woff2") format("woff2"), url("/src/fonts/modesto.woff") format("woff"), url("/src/fonts/modesto.ttf") format("truetype"), url("/src/fonts/modesto.svg") format("svg");
+}
+
+@font-face {
+  font-family: "runic";
+  src: url("/src/fonts/modranihtrunic-yvxj-webfont.woff2") format("woff2"), url("/src/fonts/modranihtrunic-yvxj-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  width: 100%;
+  color: white;
+  position: fixed !important;
+  z-index: 1000;
+}
+
+.navbar .btn {
+  margin-left: 1em;
+}
+
+.navbar-brand a {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  padding: 0.2em 3em 0 1.5em;
+  margin: 0 0 -0.2em 0;
+}
+
+.nav-post {
+  background-image: url("/src/img/footer.svg");
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+  height: 50px;
+  display: block;
+  background-size: contain;
+  position: fixed;
+  top: 3.5em;
+  width: 100vw;
+  z-index: 999;
+}
+
+.nav-key,
+.stat-key,
+.stat-value {
+  font-family: "Modesto";
+}
+
+.nav-key,
+.nav-value {
+  margin: 0;
+}
+
+.stat-key,
+.stat-value {
+  font-size: 10px;
+  margin: 0;
+}
+
+.navbar li.nav-item.active {
+  margin: 0 0 -1.5em 0;
+}
+
+.menu-roller {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1400px) {
+  #playerName,
+  .nav-post,
+  .footer-pre {
+    display: none;
+  }
+}
+
+.sidebar-wrapper {
+  background: #343a40;
+  height: 95%;
+  overflow-y: auto;
+  position: fixed;
+  width: 20em;
+  overflow-x: hidden;
+  margin: 4em 0;
+  padding: 2em 0 6em;
+}
+
+.sidebar-wrapper::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+.sidebar-wrapper::-webkit-scrollbar-track {
+  background: #343a40;
+  /* color of the tracking area */
+}
+
+.sidebar-wrapper::-webkit-scrollbar-thumb {
+  background-color: #6c757d;
+  /* color of the scroll thumb */
+}
+
+nav a {
+  color: white;
+}
+
+nav a {
+  background: none;
+  color: lightgrey;
+  font-size: 14px;
+  padding: 0.1em 2em;
+  display: block;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-title {
+  text-align: left;
+  padding: 0.8em 0 0.5em 1.8em;
+  border-top: 2px groove #616161;
+  color: white;
+  font-size: 14px;
+}
+
+.sidebarGroup {
+  padding-bottom: 0.5em;
+}
+
+.menu-icon {
+  font-size: 14px;
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+.iconify {
+  padding: 0.2em 0;
+  font-size: 28px;
+  margin: 0em 0.2em 0 0em;
+}
+/*# sourceMappingURL=main.css.map */

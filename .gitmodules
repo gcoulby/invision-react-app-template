@@ -1,0 +1,3 @@
+[submodule "src/components/invision-auth-react"]
+	path = src/components/invision-auth-react
+	url = https://github.com/gcoulby/invision-auth-react.git
